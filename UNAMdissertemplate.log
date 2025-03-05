@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.7)  21 DEC 2024 15:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.7)  17 JAN 2025 13:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/nataa/Documents/tesis/UNAMdissertemplate.tex
-(c:/Users/nataa/Documents/tesis/UNAMdissertemplate.tex
+**d:/tesis/UNAMdissertemplate.tex
+(d:/tesis/UNAMdissertemplate.tex
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
 (C:\Users\nataa\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
@@ -693,40 +693,27 @@ LaTeX Info: Redefining \. on input line 68.
 LaTeX Info: Redefining \% on input line 68.
 [9]
 Cap\'{\i }tulo 3.
-(objetivosPrograma.tex) (funcionalidadOrquestrador.tex
+(objetivosPrograma.tex) (descripcionOrquestrador.tex
 
 [10
 
-]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 19.
+]) (funcionalidadOrquestrador.tex
 
-
-LaTeX Info: Redefining \. on input line 87.
-LaTeX Info: Redefining \% on input line 87.
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
 [11]
-Overfull \hbox (6.96544pt too wide) in paragraph at lines 143--144
-[]\T1/cmr/m/n/12 Registra un nue-vo \T1/cmr/m/it/12 peer \T1/cmr/m/n/12 en una red pri-va-da es-pe-ci-fi-ca-da por \T1/cmtt/m/n/12 <private_network_id>\T1/cmr/m/n/12 . 
- []
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 43.
 
 
-
-LaTeX Info: Redefining \. on input line 147.
-LaTeX Info: Redefining \% on input line 147.
-[12]
-
-LaTeX Info: Redefining \. on input line 203.
-LaTeX Info: Redefining \% on input line 203.
-[13]) (descripcionOrquestrador.tex
-
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
-[14]) (componentesOrquestrador.tex) (diagrama-clases.tex
-<imagenes//diagrama-clases.png, id=247, 483.30562pt x 291.33844pt>
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
+[12]) (diagrama-clases.tex
+<imagenes//diagrama-clases.png, id=239, 900.36375pt x 528.97626pt>
 File: imagenes//diagrama-clases.png Graphic file (type png)
 <use imagenes//diagrama-clases.png>
 Package pdftex.def Info: imagenes//diagrama-clases.png  used on input line 4.
-(pdftex.def)             Requested size: 433.62001pt x 261.39754pt.
+(pdftex.def)             Requested size: 433.62001pt x 254.76129pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -735,8 +722,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[15]
-<imagenes//alcanzabilidad.png, id=253, 388.45125pt x 372.64218pt>
+[13]
+<imagenes//alcanzabilidad.png, id=245, 388.45125pt x 372.64218pt>
 File: imagenes//alcanzabilidad.png Graphic file (type png)
 <use imagenes//alcanzabilidad.png>
 Package pdftex.def Info: imagenes//alcanzabilidad.png  used on input line 7.
@@ -745,7 +732,7 @@ Package pdftex.def Info: imagenes//alcanzabilidad.png  used on input line 7.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<imagenes//conexion-directa.png, id=254, 513.41812pt x 291.33844pt>
+<imagenes//conexion-directa.png, id=246, 513.41812pt x 291.33844pt>
 File: imagenes//conexion-directa.png Graphic file (type png)
 <use imagenes//conexion-directa.png>
 Package pdftex.def Info: imagenes//conexion-directa.png  used on input line 19.
@@ -757,8 +744,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
-[16 <./imagenes//diagrama-clases.png>]
-<imagenes//conecta-clientes-indirectamente.png, id=262, 347.04657pt x 403.5075pt>
+[14 <./imagenes//diagrama-clases.png>]
+<imagenes//conecta-clientes-indirectamente.png, id=254, 347.04657pt x 403.5075pt>
 File: imagenes//conecta-clientes-indirectamente.png Graphic file (type png)
 <use imagenes//conecta-clientes-indirectamente.png>
 Package pdftex.def Info: imagenes//conecta-clientes-indirectamente.png  used on input line 31.
@@ -771,8 +758,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
-[17 <./imagenes//alcanzabilidad.png>]
-<imagenes//register-user.png, id=270, 387.69844pt x 246.1697pt>
+[15 <./imagenes//alcanzabilidad.png>]
+<imagenes//register-user.png, id=262, 387.69844pt x 246.1697pt>
 File: imagenes//register-user.png Graphic file (type png)
 <use imagenes//register-user.png>
 Package pdftex.def Info: imagenes//register-user.png  used on input line 7.
@@ -781,7 +768,7 @@ Package pdftex.def Info: imagenes//register-user.png  used on input line 7.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<imagenes//login-user.png, id=271, 435.87843pt x 240.9pt>
+<imagenes//login-user.png, id=263, 435.87843pt x 240.9pt>
 File: imagenes//login-user.png Graphic file (type png)
 <use imagenes//login-user.png>
 Package pdftex.def Info: imagenes//login-user.png  used on input line 16.
@@ -789,7 +776,7 @@ Package pdftex.def Info: imagenes//login-user.png  used on input line 16.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<imagenes//create-network.png, id=272, 370.38374pt x 210.7875pt>
+<imagenes//create-network.png, id=264, 370.38374pt x 210.7875pt>
 File: imagenes//create-network.png Graphic file (type png)
 <use imagenes//create-network.png>
 Package pdftex.def Info: imagenes//create-network.png  used on input line 28.
@@ -801,16 +788,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 34.
 LaTeX Info: Redefining \% on input line 34.
-[18 <./imagenes//conexion-directa.png>]
+[16 <./imagenes//conexion-directa.png>]
 
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
-[19 <./imagenes//conecta-clientes-indirectamente.png>]
+[17 <./imagenes//conecta-clientes-indirectamente.png>]
 
 LaTeX Info: Redefining \. on input line 42.
 LaTeX Info: Redefining \% on input line 42.
-[20 <./imagenes//register-user.png> <./imagenes//login-user.png>]
-<imagenes//registro-endpoint.png, id=295, 331.99031pt x 197.23688pt>
+[18 <./imagenes//register-user.png> <./imagenes//login-user.png>]
+<imagenes//registro-endpoint.png, id=287, 331.99031pt x 197.23688pt>
 File: imagenes//registro-endpoint.png Graphic file (type png)
 <use imagenes//registro-endpoint.png>
 Package pdftex.def Info: imagenes//registro-endpoint.png  used on input line 49.
@@ -823,8 +810,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
-[21 <./imagenes//create-network.png>]
-<imagenes//cliente-alcanza-endpoints.png, id=302, 745.28438pt x 354.57469pt>
+[19 <./imagenes//create-network.png>]
+<imagenes//cliente-alcanza-endpoints.png, id=294, 745.28438pt x 354.57469pt>
 File: imagenes//cliente-alcanza-endpoints.png Graphic file (type png)
 <use imagenes//cliente-alcanza-endpoints.png>
 Package pdftex.def Info: imagenes//cliente-alcanza-endpoints.png  used on input line 67.
@@ -837,8 +824,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 71.
 LaTeX Info: Redefining \% on input line 71.
-[22 <./imagenes//registro-endpoint.png>]
-<imagenes//divulgar-red-privada.png, id=309, 351.56343pt x 201.75375pt>
+[20 <./imagenes//registro-endpoint.png>]
+<imagenes//divulgar-red-privada.png, id=301, 351.56343pt x 201.75375pt>
 File: imagenes//divulgar-red-privada.png Graphic file (type png)
 <use imagenes//divulgar-red-privada.png>
 Package pdftex.def Info: imagenes//divulgar-red-privada.png  used on input line 77.
@@ -847,7 +834,7 @@ Package pdftex.def Info: imagenes//divulgar-red-privada.png  used on input line 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<imagenes//listar_redes.png, id=310, 349.305pt x 253.69781pt>
+<imagenes//listar_redes.png, id=302, 349.305pt x 253.69781pt>
 File: imagenes//listar_redes.png Graphic file (type png)
 <use imagenes//listar_redes.png>
 Package pdftex.def Info: imagenes//listar_redes.png  used on input line 87.
@@ -855,7 +842,7 @@ Package pdftex.def Info: imagenes//listar_redes.png  used on input line 87.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<imagenes//server-divulga-tablero.png, id=311, 659.46375pt x 247.67531pt>
+<imagenes//server-divulga-tablero.png, id=303, 659.46375pt x 247.67531pt>
 File: imagenes//server-divulga-tablero.png Graphic file (type png)
 <use imagenes//server-divulga-tablero.png>
 Package pdftex.def Info: imagenes//server-divulga-tablero.png  used on input line 98.
@@ -867,25 +854,25 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
-[23 <./imagenes//cliente-alcanza-endpoints.png>]
+[21 <./imagenes//cliente-alcanza-endpoints.png>]
 
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
-[24 <./imagenes//divulgar-red-privada.png> <./imagenes//listar_redes.png>]
+[22 <./imagenes//divulgar-red-privada.png> <./imagenes//listar_redes.png>]
 
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
-[25 <./imagenes//server-divulga-tablero.png>]
+[23 <./imagenes//server-divulga-tablero.png>]
 Cap\'{\i }tulo 4.
 (resultados.tex)
 
-[26
+[24
 
 ]
 Cap\'{\i }tulo 5.
 (bibliografia.tex
 
-[27
+[25
 
 ]
 Underfull \hbox (badness 3291) in paragraph at lines 11--12
@@ -899,14 +886,14 @@ Underfull \hbox (badness 3965) in paragraph at lines 41--42
 
 
 
-[28
+[26
 
 ])
 
 LaTeX Info: Redefining \. on input line 102.
 LaTeX Info: Redefining \% on input line 102.
-[29]
-runsystem(latexminted cleantemp  --timestamp 20241221151934 71CC8A498287248AC454CC53EAB8CADE)...disabled (restricted).
+[27]
+runsystem(latexminted cleantemp  --timestamp 20250117133251 71CC8A498287248AC454CC53EAB8CADE)...disabled (restricted).
 
  (UNAMdissertemplate.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -917,20 +904,20 @@ LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
 Package rerunfilecheck Info: File `UNAMdissertemplate.out' has not changed.
-(rerunfilecheck)             Checksum: CD8C6B41F93B6325A117FFA8BD087416;5287.
+(rerunfilecheck)             Checksum: BCF8074DDF5ECCDA294CCC0AADA05798;5287.
  ) 
 Here is how much of TeX's memory you used:
- 25718 strings out of 473682
- 525152 string characters out of 5719216
+ 25711 strings out of 473682
+ 524455 string characters out of 5719216
  1095507 words of memory out of 5000000
- 48266 multiletter control sequences out of 15000+600000
+ 48264 multiletter control sequences out of 15000+600000
  571564 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,9n,93p,1157b,668s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,9n,93p,1135b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1440.pk><C:/Users/nataa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/nataa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on UNAMdissertemplate.pdf (30 pages, 596450 bytes).
+Output written on UNAMdissertemplate.pdf (28 pages, 588542 bytes).
 PDF statistics:
- 912 PDF objects out of 1000 (max. 8388607)
- 101 named destinations out of 1000 (max. 500000)
+ 902 PDF objects out of 1000 (max. 8388607)
+ 99 named destinations out of 1000 (max. 500000)
  323 words of extra memory for PDF output out of 10000 (max. 10000000)
 
