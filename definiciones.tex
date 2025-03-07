@@ -16,7 +16,7 @@ Los \textbf{protocolos de VPN} definen cómo se establece y mantiene este túnel
     \item Conexión inicial:
     \begin{itemize}
         \item El cliente (dispositivo del usuario) establece una conexión con el servidor VPN.
-        \item Se negocian los parámetros de cifrado, incluyendo el protocolo y las claves de sesión.
+        \item Se negocian los parámNetwork Programmability and Automation, 2nd Editionetros de cifrado, incluyendo el protocolo y las claves de sesión.
         \item El cliente y el servidor se autentican mutuamente utilizando certificados digitales o claves compartidas.
     \end{itemize}
 
@@ -35,16 +35,16 @@ Los \textbf{protocolos de VPN} definen cómo se establece y mantiene este túnel
 
     WireGuard utiliza algoritmos criptográficos avanzados como ChaCha20 para cifrado, Curve25519 para intercambio de claves, BLAKE2 para hash y Poly1305 para autenticación de mensajes, garantizando seguridad moderna y eficiente. Funciona a nivel de la capa de red (capa 3 del modelo OSI) y adopta un enfoque punto a punto para establecer túneles entre pares.
 
-\subsection{Flujo de Operación}  
+\subsection{Flujo de Operación de WireGuard}  
    El flujo de operación de WireGuard comienza con la inicialización, donde se configura una interfaz virtual con una clave privada única, se asocian las claves públicas de los \textit{peers} con sus direcciones IP correspondientes, y se establecen reglas de enrutamiento que redirigen los paquetes a través de la interfaz \texttt{wg0}. En el envío de un paquete, el dispositivo genera el paquete de datos y lo dirige a la interfaz WireGuard, que verifica las reglas de enrutamiento para determinar la clave pública del \textit{peer} de destino. Luego, los datos se cifran usando \texttt{ChaCha20} con claves derivadas del último \textit{handshake}, se encapsulan en un datagrama UDP y se envían al puerto del \textit{peer} especificado. Al recibir un paquete, el dispositivo escucha en el puerto UDP configurado, valida la autenticidad del paquete utilizando \texttt{Poly1305}, descifra los datos con la clave compartida y el \textit{nonce}, y reinyecta el paquete descifrado en la pila de red del sistema operativo como un paquete local.
   
    WireGuard no utiliza un canal de control persistente, lo que le permite operar sin mantener una conexión activa constante; los pares pueden enviar paquetes en cualquier momento. Además, si un \textit{peer} no ha enviado tráfico durante un periodo prolongado, el protocolo renegocia automáticamente el \textit{handshake} en el siguiente envío de paquetes.
    
-   \subsection{Algoritmos Criptográficos}  
+   \subsection{Algoritmos Criptográficos de WireGuard}  
    Utiliza \texttt{ChaCha20} para cifrar datos, optimizado para hardware sin aceleración AES, y \texttt{Poly1305} para autenticar mensajes y garantizar la integridad de los paquetes. El intercambio de claves se realiza mediante \texttt{Noise Protocol Framework} basado en \texttt{X25519}, permitiendo un intercambio rápido y seguro. Para la derivación de claves seguras emplea \texttt{HKDF} (HMAC-based Extract-and-Expand Key Derivation Function), mientras que la prevención de ataques de repetición se logra mediante un contador de \textit{nonce} monotónico por paquete. Durante el \textit{handshake} inicial, los pares intercambian mensajes criptográficos para autenticarse y negociar claves efímeras para la sesión, con rotación periódica de claves de sesión (cada 2 minutos por defecto) para reforzar la seguridad.
    
 \section{Tailscale}  
-    Tailscale es una solución de VPN basada en el protocolo WireGuard, diseñada para crear redes privadas de tipo malla (mesh) que conectan dispositivos distribuidos de forma segura y sencilla. Utiliza WireGuard para garantizar alta velocidad y seguridad mediante cifrado moderno, permitiendo conexiones directas entre dispositivos (peer-to-peer) siempre que sea posible, o redirigiendo el tráfico a través de un relay (*derp*) en caso de restricciones como firewalls.
+    Tailscale es una solución de VPN basada en el protocolo WireGuard, diseñada para crear redes privadas de tipo malla (mesh) que conectan dispositivos distribuidos de forma segura y sencilla. Utiliza WireGuard para garantizar alta velocidad y seguridad mediante cifrado moderno, permitiendo conexiones directas entre dispositivos (peer-to-peer) siempre que sea posible, o redirigiendo el tráfico a través de un relay (DERP: Designated Encrypted Relay for Packets) en caso de restricciones como firewalls.
     
    Para los usuarios la configuración es simple solo necesitan instalar la aplicación, autenticarse con cuentas como Google, GitHub o Microsoft, y los dispositivos se registran automáticamente en la red privada. Es compatible con múltiples plataformas como Linux, macOS, Windows, iOS, Android y Raspberry Pi
    

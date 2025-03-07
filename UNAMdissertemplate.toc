@@ -1,34 +1,37 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{\numberline {1}Introducción}{2}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Definiciones}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}VPN}{5}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Protocolos de túneles}{5}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Flujo de operación de una VPN}{6}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}WireGuard}{6}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Flujo de Operación}{7}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Algoritmos Criptográficos}{7}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Tailscale}{7}{section.2.3}%
-\contentsline {section}{\numberline {2.4}NAT}{8}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Firewall}{9}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Desarrollo}{10}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Objetivos del programa}{10}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Descripción del orquestrador}{10}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Herramientas a utilizar}{11}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Funcionalidad del orquestrador}{11}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Componentes del orquestrador}{13}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Diagrama de clases}{13}{subsection.3.5.1}%
-\contentsline {section}{\numberline {3.6}Flujo del programa}{14}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Conexión de dispositivos finales}{14}{subsection.3.6.1}%
-\contentsline {subsubsection}{Conexión de dispositivos finales con direcciones IP ruteables. Directa}{14}{section*.3}%
-\contentsline {subsubsection}{Conexión de dispositivos finales con direcciones IP no ruteables. Relay}{15}{section*.4}%
-\contentsline {section}{\numberline {3.7}Casos de uso}{16}{section.3.7}%
-\contentsline {subsubsection}{Registro de usuario}{16}{section*.5}%
-\contentsline {subsection}{\numberline {3.7.1}Identificación del usuario}{16}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Registro de una red privada}{16}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}Registro de un dispositivo final}{19}{subsection.3.7.3}%
-\contentsline {subsection}{\numberline {3.7.4}Cliente verifica conectividad con sus endpoint registrados}{20}{subsection.3.7.4}%
-\contentsline {subsection}{\numberline {3.7.5}Cliente consulta información de red privada al orquestrador}{21}{subsection.3.7.5}%
-\contentsline {subsection}{\numberline {3.7.6}Cliente consulta redes privadas disponibles}{21}{subsection.3.7.6}%
-\contentsline {subsection}{\numberline {3.7.7}Orquestrador divulga tablero de red privada}{21}{subsection.3.7.7}%
-\contentsline {chapter}{\numberline {4}Resultados}{24}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusiones}{25}{chapter.5}%
+\contentsline {chapter}{\numberline {1}Introducción}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Definiciones}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}VPN}{6}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Protocolos de túneles}{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Flujo de operación de una VPN}{7}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}WireGuard}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Flujo de Operación de WireGuard}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Algoritmos Criptográficos de WireGuard}{8}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Tailscale}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}NAT}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Firewall}{10}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Desarrollo}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Objetivos del programa}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Descripción del orquestrador}{11}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Herramientas a utilizar}{12}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Funcionalidad del orquestrador}{12}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Componentes del orquestrador}{14}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Diagrama de clases}{14}{subsection.3.5.1}%
+\contentsline {section}{\numberline {3.6}Flujo del programa}{15}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Conexión de dispositivos finales}{15}{subsection.3.6.1}%
+\contentsline {subsubsection}{Conexión de dispositivos finales con direcciones IP ruteables. Directa}{15}{section*.3}%
+\contentsline {subsubsection}{Conexión de dispositivos finales con direcciones IP no ruteables. Relay}{16}{section*.4}%
+\contentsline {section}{\numberline {3.7}Casos de uso}{17}{section.3.7}%
+\contentsline {subsubsection}{Registro de usuario}{17}{section*.5}%
+\contentsline {subsection}{\numberline {3.7.1}Identificación del usuario}{17}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Registro de una red privada}{17}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Registro de un dispositivo final}{20}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Cliente verifica conectividad con sus endpoint registrados}{21}{subsection.3.7.4}%
+\contentsline {subsection}{\numberline {3.7.5}Cliente consulta información de red privada al orquestrador}{22}{subsection.3.7.5}%
+\contentsline {subsection}{\numberline {3.7.6}Cliente consulta redes privadas disponibles}{22}{subsection.3.7.6}%
+\contentsline {subsection}{\numberline {3.7.7}Orquestrador divulga tablero de red privada}{22}{subsection.3.7.7}%
+\contentsline {chapter}{\numberline {4}Resultados}{25}{chapter.4}%
+\contentsline {subsection}{\numberline {4.0.1}Pruebas de Escenario 2}{25}{subsection.4.0.1}%
+\contentsline {section}{\numberline {4.1}Pruebas de Escenario 1. Todos los dispositivos finales son alcanzables}{26}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Conclusiones}{28}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Trabajo futuro}{29}{chapter.6}%
